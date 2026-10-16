@@ -214,9 +214,10 @@ const displayProducts = (products) => {
             <div class="col-md-4 col-lg-3 mb-4">
                 <div class="card shadow-sm">
 
-                    <img src="${product.image}"
-                         class="card-img-top"
-                         alt="${product.item}">
+                   <img src="${product.image}" 
+     class="card-img-top" 
+     alt="${product.item}"
+     loading="lazy">
 
                     <div class="card-body">
 
